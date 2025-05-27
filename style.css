@@ -1,0 +1,42 @@
+/* CSS for the entire page */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Raleway';
+    background-color: #1f202b;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333446;
+    height: 100px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.left{
+    font-size: 1.8rem;
+}
+
+.right{
+    color: #ffffff;
+}
