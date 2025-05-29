@@ -90,3 +90,24 @@ ul li a{
     left: 60px;
     width: 30%;   
 }
+
+nav .right a:hover {
+    color: #1DB954; /* Spotify green */
+}
+
+.myOriginals {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+.music-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+.song h2 {
+    margin-bottom: 0.5rem;
+}
