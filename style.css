@@ -20,17 +20,27 @@ nav{
     color: #ffffff;
 }
 
-nav ul{
+ul{
     display: flex;
     justify-content: center;
     color: #ffffff;
 }
 
-nav ul li{
+ul li{
     list-style: none;
     margin: 0 23px;
     font-weight: 700;
+    color: inherit;
+}
+
+ul li a{
+    text-decoration: none;
     color: #ffffff;
+}
+
+.right ul li a:hover {
+    text-decoration: underline;
+    color: #7F8caa;
 }
 
 .left{
@@ -39,4 +49,44 @@ nav ul li{
 
 .right{
     color: #ffffff;
+}
+
+.firstSection{
+    display:flex;
+    justify-content: space-around;
+    margin: 23px;
+}
+
+.firstSection div{
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.leftSection{
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #7F8caa;
+
+}
+.rightSection{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1f202b;
+    position: relative;
+}
+.profileImage{
+    width: 90%;
+    border-radius: 10px;
+}
+
+.overlayImage{
+    position: absolute;
+    top: 130px;
+    left: 60px;
+    width: 30%;   
 }
