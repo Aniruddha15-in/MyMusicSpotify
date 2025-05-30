@@ -140,3 +140,18 @@ ul li a{
 .song h2 {
     margin-bottom: 0.5rem;
 }
+
+.songRec {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.songRec img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
