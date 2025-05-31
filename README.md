@@ -1,2 +1,3 @@
 # MyMusicSpotify
-A website to showcase details about my music
+Author: Aniruddha Majumdar
+A website to showcase details about my original music, my socials, my recommendations and other features.
